@@ -1,0 +1,10 @@
+.order-list { display: flex; flex-direction: column; gap: 14px; }
+.order-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; }
+.order-card-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.order-card-items { display: flex; flex-direction: column; gap: 2px; font-size: .93rem; margin-bottom: 10px; }
+.order-card-foot { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border); padding-top: 10px; gap: 10px; flex-wrap: wrap; }
+.order-card-actions { display: flex; align-items: center; gap: 12px; } .order-total { font-weight: 800; font-size: 1.1rem; }
+.order-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.profile { display: flex; gap: 22px; align-items: center; flex-wrap: wrap; }
+.avatar { width: 72px; height: 72px; border-radius: 50%; background: var(--primary); color: #fff; display: grid; place-items: center; font-size: 1.8rem; font-weight: 700; }
+.profile-list { margin: 0; display: grid; gap: 10px; flex: 1; min-width: 220px; } .profile-list > div { display: flex; flex-direction: column; } .profile-list dt { font-size: .78rem; text-transform: uppercase; color: var(--muted); letter-spacing: .05em; } .profile-list dd { margin: 0; font-weight: 600; }

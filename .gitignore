@@ -1,0 +1,24 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot
+**/target/
+**/.classpath
+**/.project
+**/.settings/
+**/*.log
+
+# React / Node.js
+**/node_modules/
+**/dist/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Operating system
+.DS_Store
+Thumbs.db
